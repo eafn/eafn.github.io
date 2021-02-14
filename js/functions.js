@@ -93,6 +93,7 @@ function startHeartAnimation() {
 
 function timeElapse(date) {
     var current = new Date();
+    // alert(current.getFullYear();
     // current.setFullYear(2021, 2, 14)
     var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
     var days = Math.floor(seconds / (3600 * 24));
